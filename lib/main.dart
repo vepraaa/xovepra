@@ -68,14 +68,14 @@ class _XOGamePageState extends State<XOGamePage> {
                   Column(
                     children: [
                       const Padding(
-                        padding: EdgeInsets.all(4.0),
+                        padding: EdgeInsets.all(8.0),
                         child: Text(
                           'Player Х',
                           style: txtStyle,
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(4.0),
+                        padding: const EdgeInsets.all(8.0),
                         child: Text(
                           xScore.toString(),
                           style: txtStyle,
@@ -86,14 +86,14 @@ class _XOGamePageState extends State<XOGamePage> {
                   Column(
                     children: [
                       const Padding(
-                        padding: EdgeInsets.all(4.0),
+                        padding: EdgeInsets.all(8.0),
                         child: Text(
                           'Player О',
                           style: txtStyle,
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(4.0),
+                        padding: const EdgeInsets.all(8.0),
                         child: Text(
                           oScore.toString(),
                           style: txtStyle,
